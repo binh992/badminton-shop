@@ -1,0 +1,26 @@
+export const ROUTERS = {
+  USER: {
+    HOME: "",
+    PROFILE: "about",
+    PROFILEUSER: "profile",
+    PRODUCTS: "product",
+    NEWS: "news",
+    PAYMENT: "payment",
+    CONTACT: "contact",
+    LOGIN: "login",
+    REGISTER: "register",
+    CHECKOUT: "checkout",
+    SHOPPINGCART: "shopping-cart",
+    SEARCH: "search",
+    MY_ORDERS: "orders",
+    FORGOT_PASSWORD: "forgot-password",
+  },
+  ADMIN: {
+    DASHBOARD: "admin",
+    USER_MANAGEMENT: "admin/users",
+    PRODUCT_MANAGEMENT: "admin/products",
+    ORDER_MANAGEMENT: "admin/orders",
+    NOTIFICATIONS: "admin/notifications",
+    ACTIVITY_LOGS: "admin/activities",
+  },
+};
